@@ -4,3 +4,4 @@ flask == 2.2.2
 pandas == 2.2.3
 category_encoders == 2.6.3
 numpy==1.23.5
+Werkzeug==2.2.2
