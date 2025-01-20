@@ -1,0 +1,6 @@
+gunicorn
+scikit-learn == 1.2.2
+flask == 2.2.2
+pandas == 2.2.3
+category_encoders == 2.6.3
+numpy==1.23.5
