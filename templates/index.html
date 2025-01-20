@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Claim Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="insurance claim.jpg" alt="Insurance Claim" />
+        </div>
+        <h1>Insurance Claim Prediction</h1>
+    </header>
+
+    <div class="form-container">
+        <h2>Enter Claim Details</h2>
+        <form method="POST">
+            <div class="form-group">
+                <label for="NVVar3">NVVar3:</label>
+                <input type="number" name="NVVar3" id="NVVar3" step="0.000001" placeholder="Enter NVVar3 value" required>
+            </div>
+            <div class="form-group">
+                <label for="Var3">Var3:</label>
+                <input type="number" name="Var3" id="Var3" step="0.000001" placeholder="Enter Var3 value" required>
+            </div>
+            <div class="form-group">
+                <label for="Var7">Var7:</label>
+                <input type="number" name="Var7" id="Var7" step="0.000001" placeholder="Enter Var7 value" required>
+            </div>
+            <div class="form-group">
+                <label for="Cat12">Cat12:</label>
+                <input type="text" name="Cat12" id="Cat12" placeholder="Enter category (e.g., D)" required>
+            </div>
+            <div class="form-group">
+                <label for="Cat10">Cat10:</label>
+                <input type="text" name="Cat10" id="Cat10" placeholder="Enter category (e.g., A)" required>
+            </div>
+            <div class="form-group">
+                <label for="Cat8">Cat8:</label>
+                <input type="text" name="Cat8" id="Cat8" placeholder="Enter category (e.g., B)" required>
+            </div>
+            <div class="form-group">
+                <label for="Var2">Var2:</label>
+                <input type="number" name="Var2" id="Var2" step="0.000001" placeholder="Enter Var2 value" required>
+            </div>
+            <div class="form-group">
+                <label for="Var1">Var1:</label>
+                <input type="number" name="Var1" id="Var1" step="0.000001" placeholder="Enter Var1 value" required>
+            </div>
+            <div class="form-group">
+                <label for="Cat6">Cat6:</label>
+                <input type="text" name="Cat6" id="Cat6" placeholder="Enter category (e.g., C)" required>
+            </div>
+            <div class="form-group">
+                <label for="Blind_Model">Blind Model:</label>
+                <input type="text" name="Blind_Model" id="Blind_Model" placeholder="Enter model ID (e.g., K.78)" required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Insurance Predictor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
